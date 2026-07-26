@@ -1,0 +1,19 @@
+# Build output
+/build/
+/dist/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Tool runtime (backups the app writes next to the exe)
+/backups/
+
+# Visual Studio / editor / OS
+.vs/
+*.user
+*.suo
+Thumbs.db
+.DS_Store

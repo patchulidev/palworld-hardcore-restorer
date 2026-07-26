@@ -1,0 +1,13 @@
+# Normalize line endings for text; keep sources CRLF-agnostic in the repo.
+* text=auto
+
+*.cpp   text
+*.hpp   text
+*.h     text
+*.c     text
+*.md    text
+*.bat   text eol=crlf
+
+# Binary assets
+*.png   binary
+*.exe   binary
